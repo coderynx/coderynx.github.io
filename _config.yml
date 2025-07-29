@@ -1,0 +1,16 @@
+title: Simone Filippi | Software Developer
+description: Software Developer specializing in distributed systems, microservices, and cloud-native architecture. Building with .NET, Kafka, Kubernetes.
+author: Simone Filippi
+email: coderynx@proton.me
+url: https://www.coderynx.com
+
+theme: minima
+
+github_username: coderynx
+linkedin_username: coderynx
+
+lang: en
+timezone: Europe/Rome
+
+header_pages:
+  - index.md
