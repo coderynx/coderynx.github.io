@@ -1,5 +1,3 @@
-# coderynx
-
 ## Projects
 
 ### [Flownodes](https://github.com/coderynx/flownodes)
