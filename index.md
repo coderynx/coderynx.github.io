@@ -38,11 +38,15 @@
 - Hybrid self-hosted container-based micro data center.
 - Tools Used: Proxmox, Docker, Kubernetes, Microsoft Azure
 
+---
+
 ## Skills
 
 - Languages: C#, Python, Rust, Java, C++, C, JavaScript/TypeScript, SQL
 - Technologies: .NET, Docker, Kubernetes, PostgreSQL, SQL Server, MongoDB, RabbitMQ, Apache Kafka, FFmpeg, GStreamer,
   Keycloak, Microsoft Azure
+
+---
 
 ## Links
 
