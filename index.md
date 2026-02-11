@@ -51,8 +51,11 @@
 
 ---
 
-## Contact Me
+## Let's Connect
 
-- [GitHub](https://github.com/coderynx)
-- [LinkedIn](https://linkedin.com/in/coderynx)
-- [Email](mailto:coderynx@proton.me)
+I'm always interested in discussing **distributed systems**, **software architecture**, and new opportunities.
+
+**📧 Email:** [coderynx@proton.me](mailto:coderynx@proton.me)  
+**💼 LinkedIn:** [linkedin.com/in/coderynx](https://linkedin.com/in/coderynx)  
+**🐙 GitHub:** [github.com/coderynx](https://github.com/coderynx)  
+**🌐 Website:** [coderynx.com](https://www.coderynx.com)
