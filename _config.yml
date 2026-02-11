@@ -4,7 +4,7 @@ author: Simone Filippi
 email: coderynx@proton.me
 url: https://www.coderynx.com
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minima
 
 github_username: coderynx
 linkedin_username: coderynx
