@@ -45,6 +45,12 @@ $spacing-unit: 24px;
   @include dark;
 }
 
+// No rubber-band bounce at the top/bottom of the page.
+html,
+body {
+  overscroll-behavior: none;
+}
+
 body {
   background: var(--bg);
   color: var(--fg);
