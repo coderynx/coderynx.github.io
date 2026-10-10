@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}{% if page.tagline %} | {{ page.tagline }}{% endif %}</title>
   {%- seo title=false -%}
+  <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="icon" href="{{ "/assets/favicon.svg" | relative_url }}" type="image/svg+xml">
   {%- feed_meta -%}
