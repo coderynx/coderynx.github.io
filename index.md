@@ -1,61 +1,36 @@
+---
+layout: default
+lang: en
+---
+
+[Italiano](/it/)
+{: style="text-align: right"}
+
+# Simone Filippi
+
+I'm a backend engineer in Rome. At work I write .NET services that talk to each other over Kafka and RabbitMQ, for an online gaming platform. Outside work I mostly play around with audio processing and machine learning, in Rust and Python.
+
 ## Projects
+
+### [Spatial Audio Upmixer](https://github.com/coderynx/spatial-audio-upmixer)
+
+Upmixes stereo and surround mixes to multichannel beds up to 7.1.4, exported as WAV or ADM-BWF, with neural stem separation and a mastering chain. The DSP core is written in Rust and shared by the offline renderer and the browser preview. Python is the layer around it, chosen for fast implementation and for the separation models (SCNet on MLX, BS-RoFormer, Mel-Band RoFormer), alongside a FastAPI backend, a React mixer and a Tauri desktop app. I also wrote an evaluation harness on MUSDB18-HQ.
 
 ### [Flownodes](https://github.com/coderynx/flownodes)
 
-- Distributed IoT and system integration platform made with .NET and the virtual actor model.
-- Supports the development of custom integrations with various IoT devices and systems.
-- Tools Used: .NET, Microsoft Orleans
+An IoT automation platform built on Microsoft Orleans virtual actors. It connects devices and other data sources, and custom integrations are loaded as plugins.
 
-### [MediaBedrock](https://github.com/coderynx/media-bedrock)
+## Other projects
 
-- Framework for building media processing pipelines integrating various media processing libraries and tools.
-- Modular architecture with the ability to develop plugins for custom media processing tasks.
-- Tools Used: C#
+- [MessagingKit](https://github.com/coderynx/messaging-kit): lightweight messaging framework for .NET (RabbitMQ).
+- [MediatorKit](https://github.com/coderynx/mediator-kit): a mediator for .NET, as an alternative to MediatR.
+- [Functional](https://github.com/coderynx/functional): Option and Result types for C#, with ASP.NET Core extensions.
+- [MediaBedrock](https://github.com/coderynx/media-bedrock): media processing pipelines with plugins (C#).
+- [Slip & Fall](https://github.com/coderynx/slipandfall): fall detection using image classification (C#, ML.NET).
+- [Train Delta Forecasting](https://github.com/coderynx/train-delta-forecasting): predicts train delays from geospatial data (C#, ML.NET, LightGBM, PostGIS).
+- [x86 Operating System](https://github.com/coderynx/os): a small x86 kernel with its own shell (C, assembly, QEMU).
+- Homelab: a self-hosted micro data center with containers, mixing local hardware and Azure (Proxmox, Docker, Kubernetes).
 
-### [Functional](https://github.com/coderynx/functional)
+## Contact
 
-- A .NET library that implements the Option and Result types, which are commonly used in functional programming.
-- Provides a set of extensions for integrating with ASP.NET Core.
-- Tools Used: C#
-
-### [MessagingKit](https://github.com/coderynx/messaging-kit)
-
-- Lightweight .NET messaging framework for building distributed C# applications.
-- Tools Used: C#, RabbitMQ
-
-### [MediatorKit](https://github.com/coderynx/mediator-kit)
-
-- A mediator pattern implementation for .NET applications.
-- Designed as an alternative to MediatR.
-- Tools Used: C#
-
-### [Slip & Fall](https://github.com/coderynx/slipandfall)
-
-- Real-time falling detection using image classification.
-- Tools Used: C#, ML.NET
-
-### [Train Delta Forecasting](https://github.com/coderynx/train-delta-forecasting)
-
-- Forecasting the delay of passenger and cargo trains using machine learning with geospatial data.
-- Tools Used: C#, ML.NET, LightGBM, PostGIS
-
-### [x86 Operating System](https://github.com/coderynx/os)
-
-- A simple x86 operating system kernel with a custom shell.
-- Tools Used: C, ASM, QEMU
-
-### Homelab Infrastructure
-
-- Hybrid self-hosted container-based micro data center.
-- Tools Used: Proxmox, Docker, Kubernetes, Microsoft Azure
-
----
-
-## Let's Connect
-
-I'm always interested in discussing **distributed systems**, **software architecture**, and new opportunities.
-
-**📧 Email:** [coderynx@proton.me](mailto:coderynx@proton.me)  
-**💼 LinkedIn:** [linkedin.com/in/coderynx](https://linkedin.com/in/coderynx)  
-**🐙 GitHub:** [github.com/coderynx](https://github.com/coderynx)  
-**🌐 Website:** [coderynx.com](https://www.coderynx.com)
+The easiest way to reach me is [email](mailto:coderynx@proton.me). I'm also on [LinkedIn](https://linkedin.com/in/coderynx) and [GitHub](https://github.com/coderynx).
