@@ -1,6 +1,9 @@
 ---
 layout: default
 lang: it
+title: Simone Filippi
+tagline: Backend engineer
+description: "Backend engineer: servizi .NET con Kafka e RabbitMQ. Nel tempo libero progetti di elaborazione audio e machine learning, in Rust e Python."
 ---
 
 [English](/)
@@ -14,7 +17,7 @@ Sono un backend engineer e vivo a Roma. Di giorno scrivo servizi .NET che si par
 
 ### [Spatial Audio Upmixer](https://github.com/coderynx/spatial-audio-upmixer)
 
-Converte mix stereo e surround in bed multicanale fino a 7.1.4, esportati come WAV o ADM-BWF, con separazione neurale degli stem e una catena di mastering. Il nucleo DSP è scritto in Rust ed è condiviso tra il render offline e l'anteprima nel browser. Intorno c'è uno strato in Python, scelto per implementare in fretta e per far girare i modelli di separazione (SCNet su MLX, BS-RoFormer, Mel-Band RoFormer), insieme a un backend FastAPI, un mixer in React e un'app desktop con Tauri. Ho scritto anche un harness di valutazione su MUSDB18-HQ.
+Converte mix stereo e surround in bed multicanale fino a 7.1.4, esportati come WAV o ADM-BWF, con separazione neurale degli stem e una catena di mastering. Il nucleo DSP è scritto in Rust ed è condiviso tra il render offline e l'anteprima nel browser. Intorno c'è uno strato in Python, scelto per far girare i modelli di separazione (SCNet su MLX, BS-RoFormer, Mel-Band RoFormer), insieme a un backend FastAPI, un mixer in React e un'app desktop con Tauri. Ho scritto anche un harness di valutazione su MUSDB18-HQ.
 
 ### [Flownodes](https://github.com/coderynx/flownodes)
 
