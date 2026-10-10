@@ -10,7 +10,7 @@ tagline: Backend engineer
 
 # Simone Filippi
 
-I'm a backend engineer in Rome. At work I write .NET services that talk to each other over Kafka and RabbitMQ, for an online gaming platform. Outside work I mostly play around with audio processing and machine learning, in Rust and Python.
+I'm a backend engineer based in Rome. At work I write .NET services that talk to each other over Kafka and RabbitMQ, for an online gaming platform. Outside work I mostly play around with audio processing and machine learning, in Rust and Python.
 
 ## Projects
 
@@ -35,4 +35,4 @@ An IoT automation platform built on Microsoft Orleans virtual actors. It connect
 
 ## Contact
 
-The easiest way to reach me is [email](mailto:coderynx@proton.me). I'm also on [LinkedIn](https://linkedin.com/in/coderynx) and [GitHub](https://github.com/coderynx).
+The easiest way to reach me is by [email](mailto:coderynx@proton.me). I'm also on [LinkedIn](https://linkedin.com/in/coderynx) and [GitHub](https://github.com/coderynx).
