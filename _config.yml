@@ -11,3 +11,6 @@ linkedin_username: coderynx
 
 lang: en
 timezone: Europe/Rome
+
+plugins:
+  - jekyll-sitemap

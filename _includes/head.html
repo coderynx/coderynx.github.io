@@ -7,5 +7,11 @@
   <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="icon" href="{{ "/assets/favicon.svg" | relative_url }}" type="image/svg+xml">
-  {%- feed_meta -%}
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":{{ site.author | jsonify }},"jobTitle":"Backend engineer","url":{{ "/" | absolute_url | jsonify }},"sameAs":["https://github.com/{{ site.github_username }}","https://www.linkedin.com/in/{{ site.linkedin_username }}"]}
+  </script>
+  {%- assign en_url = "/" | absolute_url -%}
+  <link rel="alternate" hreflang="en" href="{{ en_url }}">
+  <link rel="alternate" hreflang="it" href="{{ "/it/" | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ en_url }}">
 </head>
