@@ -12,6 +12,13 @@
           </svg>
         </button>
         {{ content }}
+        <footer class="site-note">
+          {%- if page.lang == 'it' -%}
+          Questo sito non usa cookie né strumenti di tracciamento. Se cambi tema, la scelta viene salvata nel tuo browser.
+          {%- else -%}
+          This site has no cookies and no trackers. If you switch theme, your choice is saved in your browser.
+          {%- endif -%}
+        </footer>
       </div>
     </main>
     <script>

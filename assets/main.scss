@@ -225,3 +225,12 @@ table tr:nth-child(even) {
 .highlight span.gi {
   color: var(--str);
 }
+
+// Privacy note, last thing on the page.
+.site-note {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
