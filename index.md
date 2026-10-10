@@ -1,6 +1,8 @@
 ---
 layout: default
 lang: en
+title: Simone Filippi
+tagline: Backend engineer
 ---
 
 [Italiano](/it/)
@@ -14,7 +16,7 @@ I'm a backend engineer in Rome. At work I write .NET services that talk to each 
 
 ### [Spatial Audio Upmixer](https://github.com/coderynx/spatial-audio-upmixer)
 
-Upmixes stereo and surround mixes to multichannel beds up to 7.1.4, exported as WAV or ADM-BWF, with neural stem separation and a mastering chain. The DSP core is written in Rust and shared by the offline renderer and the browser preview. Python is the layer around it, chosen for fast implementation and for the separation models (SCNet on MLX, BS-RoFormer, Mel-Band RoFormer), alongside a FastAPI backend, a React mixer and a Tauri desktop app. I also wrote an evaluation harness on MUSDB18-HQ.
+Upmixes stereo and surround mixes to multichannel beds up to 7.1.4, exported as WAV or ADM-BWF, with neural stem separation and a mastering chain. The DSP core is written in Rust and shared by the offline renderer and the browser preview. Python is the layer around it, chosen for the separation models (SCNet on MLX, BS-RoFormer, Mel-Band RoFormer), alongside a FastAPI backend, a React mixer and a Tauri desktop app. I also wrote an evaluation harness on MUSDB18-HQ.
 
 ### [Flownodes](https://github.com/coderynx/flownodes)
 
